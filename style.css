@@ -17,11 +17,12 @@ body {
 
 .panel.pricing-table {
 	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
 	width: 100%;
 	padding: 15px 25px;
 	max-width: 960px;
 	display: flex;
-	text-transform: uppercase;
+	flex-direction: row;
 }
 
 .pricing-plan {
@@ -73,7 +74,7 @@ body {
 }
 
 .pricing-price {
-	color: #016ff9; 
+	color: #f9010d; 
 	display: block;
 	font-size: 32px;
 	font-weight: 700;
